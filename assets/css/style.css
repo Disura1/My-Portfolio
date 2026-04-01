@@ -518,6 +518,14 @@ section .container {
   background-color: #18d26e;
 }
 
+.skills-content{
+  border: 2px solid #4b7947;
+  border-radius: 15px;
+  padding: 10px;
+  padding-top: 15px;
+  margin-bottom: 25px;
+}
+
 /*--------------------------------------------------------------
 # Interests
 --------------------------------------------------------------*/
@@ -975,6 +983,10 @@ section .container {
 .portfolio .portfolio-wrap:hover .portfolio-info::after {
   bottom: 15px;
   right: 15px;
+}
+
+.portfolio-container .tech {
+  color: #00FFE4 !important;
 }
 
 /*--------------------------------------------------------------
